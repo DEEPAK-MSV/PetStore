@@ -1,4 +1,5 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 import Base from './Base';
 import Content from './Content';
 import Header from './Header';
@@ -11,6 +12,7 @@ function Homepage() {
       <Images />
       <Content />
       <Base />
+      <Outlet/>
     </>
   )
 }
