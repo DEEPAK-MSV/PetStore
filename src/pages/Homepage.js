@@ -12,8 +12,7 @@ function Homepage() {
       <Images />
       <Content />
       <Base />
-      <Outlet/>
-    </>
+      </>
   )
 }
 
