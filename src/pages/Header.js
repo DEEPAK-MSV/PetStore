@@ -9,12 +9,12 @@ function Header() {
       <h1 className='text-3xl font-bold font-cursive pr-4'>PetStore</h1>
       <div className='text-1xl font-bold ml-4'>
         <ul className='flex cursor-pointer text-center'>
-          <Link to={Dogs}>
+          <Link to={"/Dogs"}>
             <button>
               <li className='pr-7 hover:text-2xl'>dogs</li>
             </button>
           </Link>
-          <Link to={Cats}>
+          <Link to={"/Cats"}>
             <button>
               <li className='pr-7 hover:text-2xl'>cats</li>
             </button>
